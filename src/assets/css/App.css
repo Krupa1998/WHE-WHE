@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+  background-color: #f9c74f;
+  margin: 0;
+  padding: 0%;
+}
+
+.navbar {
+  overflow: hidden;  
+  background-color: #34a0a4;
+}
+
+h1.text{
+  font-family: 'Righteous';
+  color: #03045e;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 2px #ff1493;
+}
+
+.col{
+  display: inline-block;
+}
+
+.btn-group{
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+
+.btn-group button {
+  cursor: pointer;
+  width:50px;
+  height:50px;
+  margin-bottom: 5px;
+  margin-right: 5px; 
+  border: 3px solid #231942; 
+  color: #fafaff;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.btn-group button:hover {
+  background-color: #1e96fc;
+}
+
+.btn-group2{
+  padding-left: 425px;
+  padding-top: 50px;
+}
+
+.btn-group2 button {
+  cursor: pointer;
+  width:80px;
+  height:80px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #042a2b; 
+  border: 3px solid #c4fff9;  
+  color: #fafaff;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.btn-group2 button:hover {
+  background-color: #38b000;
+}
+
+.rectangle{
+  height: 75%;
+  width: 23%;
+  border: 10px solid #34a0a4; 
+  position: absolute; 
+  top: 100px; 
+  right: 0px;
+}
+
+.btns{
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 325px;
+}
+
+.btns button{
+  cursor: pointer;
+  width:100px;
+  height:50px;
+  margin-top: 10px;
+  margin-right: 20px;
+  color: #fafaff;
+  background-color: #da627d; 
+  border: 3px solid #621708;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btns button:hover{
+  background-color: #fd5200;
+}
+
+.btns .random{
+  margin-top: 10px;
+  background-color: #27187e; 
+  border: 3px solid #72efdd;
+  width:120px;
+}
+
+.btns .random:hover{
+  background-color: #758bfd;
+}
+
+#bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+.rectangle .text{
+  font-size:large;
+}
